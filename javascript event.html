@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+           window.addEventListener("resize",function(){
+               document.getElementById('demo').innerHTML=window.innerHeight
+           }) 
+        </script>
+    </head>
+    <body>
+        <div id="demo"></div>
+        <button onclick="myFunction()">Try it</button>
+
+<p id="demo2"></p>
+
+<script>
+function myFunction() { 
+    document.getElementById("demo2").innerHTML =
+    "Browser engine is " + navigator.userAgent;
+}
+</script>
+    </body>
+</html>
